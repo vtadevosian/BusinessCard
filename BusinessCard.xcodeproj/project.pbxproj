@@ -13,17 +13,21 @@
 		D4E1176624A3583200E892B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E1176524A3583200E892B2 /* Assets.xcassets */; };
 		D4E1176924A3583200E892B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E1176824A3583200E892B2 /* Preview Assets.xcassets */; };
 		D4E1176C24A3583200E892B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E1176A24A3583200E892B2 /* LaunchScreen.storyboard */; };
+		D4E1177524A359FF00E892B2 /* Satisfy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4E1177424A359FF00E892B2 /* Satisfy-Regular.ttf */; };
+		D4E1177724A3600400E892B2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E1177624A3600400E892B2 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D4E1175C24A3583100E892B2 /* BusinessCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E1175F24A3583100E892B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4E1176124A3583100E892B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D4E1176324A3583100E892B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4E1176324A3583100E892B2 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 8; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		D4E1176524A3583200E892B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4E1176824A3583200E892B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D4E1176B24A3583200E892B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4E1176D24A3583200E892B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E1177424A359FF00E892B2 /* Satisfy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satisfy-Regular.ttf"; sourceTree = "<group>"; };
+		D4E1177624A3600400E892B2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		D4E1175E24A3583100E892B2 /* BusinessCard */ = {
 			isa = PBXGroup;
 			children = (
+				D4E1177324A359EC00E892B2 /* Fonts */,
 				D4E1175F24A3583100E892B2 /* AppDelegate.swift */,
 				D4E1176124A3583100E892B2 /* SceneDelegate.swift */,
 				D4E1176324A3583100E892B2 /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				D4E1176A24A3583200E892B2 /* LaunchScreen.storyboard */,
 				D4E1176D24A3583200E892B2 /* Info.plist */,
 				D4E1176724A3583200E892B2 /* Preview Content */,
+				D4E1177624A3600400E892B2 /* InfoView.swift */,
 			);
 			path = BusinessCard;
 			sourceTree = "<group>";
@@ -73,6 +79,14 @@
 				D4E1176824A3583200E892B2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4E1177324A359EC00E892B2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D4E1177424A359FF00E892B2 /* Satisfy-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4E1176C24A3583200E892B2 /* LaunchScreen.storyboard in Resources */,
+				D4E1177524A359FF00E892B2 /* Satisfy-Regular.ttf in Resources */,
 				D4E1176924A3583200E892B2 /* Preview Assets.xcassets in Resources */,
 				D4E1176624A3583200E892B2 /* Assets.xcassets in Resources */,
 			);
@@ -146,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E1177724A3600400E892B2 /* InfoView.swift in Sources */,
 				D4E1176024A3583100E892B2 /* AppDelegate.swift in Sources */,
 				D4E1176224A3583100E892B2 /* SceneDelegate.swift in Sources */,
 				D4E1176424A3583100E892B2 /* ContentView.swift in Sources */,
